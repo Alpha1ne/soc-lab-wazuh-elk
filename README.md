@@ -80,11 +80,11 @@ This is Wazuh's dedicated brute-force **correlation rule** — distinct from the
 
 **MITRE ATT\&CK mapping:** the endpoint's ATT\&CK view attributed 11 events to the **Credential Access** tactic (T1110 – Brute Force), confirming Wazuh correctly classified the activity against an industry-standard adversary framework.
 
-!\[Brute Force Detection](docs/screenshots/brute-force-detection.png)
+![Brute Force Detection](docs/screenshots/brute-force-detection.png)
 
-!\[24-Hour Dashboard Overview](docs/screenshots/dashboard-24h-overview.png)
+![24-Hour Dashboard Overview](docs/screenshots/dashboard-24h-overview.png)
 
-!\[Authentication Failure Summary](docs/screenshots/auth-failure-summary.png)
+![Authentication Failure Summary](docs/screenshots/auth-failure-summary.png)
 
 \---
 
