@@ -1,4 +1,4 @@
-# SOC Simulation Lab — Wazuh / ELK Threat Detection
+# SOC Simulation Lab — Wazuh Threat Detection
 
 A hands-on Security Operations Center (SOC) lab built from scratch on VMware Workstation Pro, simulating real attacks against monitored Linux and Windows endpoints and detecting them end-to-end with Wazuh.
 
@@ -66,6 +66,8 @@ flowchart LR
 ### Detection Results
 
 Filtering alerts by `rule.groups:authentication_failed` for the endpoint showed **10 total events, 10 authentication failures, 0 successes** — consistent with the brute-force attempt.
+
+> **Note on the numbers:** this filter matches only the ten level-5 `authentication failed` events. The unfiltered 24-hour overview (second screenshot below) shows **11 authentication failures and 1 success**, because it also counts the level-10 correlation alert (which Wazuh tags with the separate `authentication_failures` group) and all other endpoint activity in the window.
 
 ```
 sshd: brute force trying to get access to the system. Authentication failed.
