@@ -2,7 +2,7 @@
 
 A hands-on Security Operations Center (SOC) lab built from scratch on VMware Workstation Pro, simulating real attacks against monitored Linux and Windows endpoints and detecting them end-to-end with Wazuh.
 
-This is the second project in a two-part portfolio (see [Project 1: Ansible Automation](https://github.com/Alpha1ne)) demonstrating practical, hands-on security engineering skills backed by CEH, CCNA, RHCE, and MCSA certifications.
+This is the second project in a two-part portfolio (see [Project 1: Ansible Automation](https://github.com/Alpha1ne/ansible-linux-hardening)) demonstrating practical, hands-on security engineering skills backed by CEH, CCNA, RHCE, and MCSA certifications.
 
 ---
 
